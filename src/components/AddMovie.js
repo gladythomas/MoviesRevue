@@ -35,6 +35,7 @@ function AddMovie() {
             })
         }
         setLoading(false);
+        
     }
     return (
         <>
