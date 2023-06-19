@@ -26,6 +26,12 @@ function AddMovie() {
                 buttons:false,
                 timer:3000
             })
+            setForm({
+                title:"",
+                year:"",
+                description:"",
+                image:""
+            })
         } catch (error) {
             swal({
                 title:error,
